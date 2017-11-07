@@ -1,0 +1,324 @@
+/* set all fonts first then style individual fonts for elements */
+body {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+
+h1, h2, h3{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	color: #03aba0;
+	font-size: 2em;
+	padding: 0 0 30px 0;
+	border-style: solid;
+	border-color: #cccccc;
+	border-width: 0 0 3px 0;
+	margin: 0 0 25px 0;
+
+}
+
+h3 {
+	color: #03aba0;
+	font-size: 1.5em;
+	padding: 0 0 20px 0;
+	border-style: solid;
+	border-color: #cccccc;
+	border-width: 0 0 2px 0;
+	margin: 0 0 25px 0;
+}
+
+
+p, a {
+	color: #777777;
+}
+
+a {
+	text-decoration: none;
+	font-weight: normal;
+}
+
+p {
+	font-size: 18px;
+	line-height: 2em;
+}
+
+label {
+	font-size: 18px;
+	line-height: 2em;
+}
+
+span {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.top-nav-container {
+	border-style: solid;
+	border-color: #cccccc;
+	border-width: 0 0 2px 0;
+
+}
+
+.top-nav {
+	height: 90px;
+	width: 960px;
+	background-color: white;
+	margin: 0 auto;
+}
+
+.name-box {
+	background-color: #03aba0;
+	color: #ffffff;
+	float: left;
+	height: 100%;
+	line-height: 90px;
+	padding: 0px 35px 0px 35px;
+
+}
+
+.nav-links {
+	float: right;
+	line-height: 90px;
+
+}
+
+.nav-links a {
+	font-size: 18px;
+}
+
+.background-container {
+	clear: both;
+	overflow: auto;
+	background-image: url("./../images/concrete_seamless.png");
+}
+
+.main-content {
+	clear: both;
+	width: 960px;
+	margin: 0 auto;
+	padding: 40px 0 0 0;
+}
+
+.about-me {
+	float: left;
+	width: 588px;
+	background-color: #ffffff;
+	border-color: #dddddd;
+	border-width: 1px 1px 1px 1px;
+	border-style: solid;
+	padding: 40px 30px 40px 30px;
+	margin-bottom: 50px;
+}
+
+.contact-me {
+	float: left;
+	width: 588px;
+	background-color: #ffffff;
+	border-color: #dddddd;
+	border-width: 1px 1px 1px 1px;
+	border-style: solid;
+	padding: 40px 30px 40px 30px;
+	margin-bottom: 50px;
+}
+
+.portfolio-rows-container {
+	margin: 50px 0 0 0;
+}
+
+.portfolio-row {
+	margin: 0 0 50px 0;
+}
+
+.portfolio {
+	float: left;
+	width: 588px;
+	background-color: #ffffff;
+	border-color: #dddddd;
+	border-width: 1px 1px 1px 1px;
+	border-style: solid;
+	padding: 40px 30px 40px 30px;
+	margin-bottom: 50px;
+}
+
+.portfolio img:first-of-type {
+	/*margin-right: 38px;*/
+}
+
+.portfolio-image {
+	display: inline-block;
+	position: relative;
+}
+
+.portfolio-image-left {
+	margin-right: 38px;
+}
+
+
+.image-label {
+	color: #ffffff;
+	background-color: #03aba0;
+	position: absolute;
+	bottom: 15px;
+	width: 100%;
+	text-align: center;
+	font-size: 1.5em;
+	padding: 15px 0 15px 0;
+}
+
+.form-container input {
+	width: 576px;
+	margin: 0 0 10px 0;
+	padding: 10px 0 10px 10px;
+}
+
+.form-container textarea {
+	width: 584px;
+	height: 200px;
+	margin: 0 0 20px 0;
+}
+
+.form-container .submit-btn {
+	background-color: #03aba0;
+	width: initial;
+	margin: 0 0 0 0;
+	border-width: 0 0 0 0;
+	padding: 15px 30px 15px 30px;
+	color: #ffffff;
+	font-size: 1.25em;
+	cursor: pointer;
+}
+
+.headshot {
+	width: 150px;
+	float: left;
+	margin: 10px 25px 0 0;
+}
+
+.social-sidebar {
+	float: right;
+	width: 208px;
+	background-color: #ffffff;
+	border-color: #dddddd;
+	border-width: 1px 1px 1px 1px;
+	border-style: solid;
+	padding: 40px 30px 40px 30px;
+}
+
+.sidebar-img {
+	width: 60px;
+	margin: 0 14px 0 0;
+}
+
+/* I would have used :last-of-type or :last-child here but I could not
+   figure out a clean way to do it with classes vs. using img:last-child*/
+.sidebar-last-img {
+	margin: 0 0px 0 0;
+}
+
+.footer p {
+	clear: both;
+	background-color: #666666;
+	text-align: center;
+	color: #cccccc;
+	font-size: .75em;
+	padding: 30px 0 30px 0;
+	border-width: 8px 0 6px 0;
+	border-style: solid;
+	border-top-color: #03aba0;
+	border-bottom-color: #000000;
+}
+
+@media screen and (max-width: 980px) {
+	.top-nav {
+		width: 740px;
+	}
+	.main-content {
+		width: 740px;
+		margin: 0 auto;
+		padding: 40px 0 0 0;
+
+	}
+
+	.about-me {
+		width: 350px;
+	}
+	.social-sidebar {
+	}
+	.headshot {
+		width: 100%;
+		margin-bottom: 20px
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+	.top-nav {
+		width: 640px;
+	}
+	.main-content {
+		width: 640px;
+		margin: 0 auto;
+		padding: 40px 0 0 0;
+
+	}
+
+	.about-me {
+		clear: both;
+		width: 578px;
+	}
+
+	.headshot {
+		width: 150px;
+	}
+	
+	.social-sidebar {
+		clear: both;
+		width: 578px;
+		margin-bottom: 50px;
+	}
+
+}
+
+@media screen and (max-width: 640px) {
+	.top-nav {
+		width: 480px;
+	}
+
+	.name-box {
+		clear: both;
+
+	}
+
+	.nav-links {
+		clear: both;
+	}
+
+	.main-content {
+		width: 480px;
+		margin: 0 auto;
+		padding: 40px 0 0 0;
+
+	}
+
+	.about-me {
+		clear: both;
+		width: 578px;
+	}
+
+	.headshot {
+		width: 150px;
+	}
+	
+	.social-sidebar {
+		clear: both;
+		width: 578px;
+		margin-bottom: 50px;
+	}
+
+}
