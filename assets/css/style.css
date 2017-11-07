@@ -249,6 +249,18 @@ span {
 		width: 350px;
 	}
 
+	.contact-me {
+		width: 350px;
+	}
+
+	.contact-me input {
+		width: 96%;
+	}
+
+	.contact-me textarea {
+		width: 98%;
+	}
+
 	.portfolio {
 		width: 350px;
 	}
@@ -266,7 +278,7 @@ span {
 		margin: 0 0 0 0;
 	}
 
-	img {
+	.portfolio img {
 		width: 100%;
 	}
 
@@ -290,6 +302,10 @@ span {
 
 	}
 
+	.contact-me {
+		width: 578px;
+	}
+
 	.about-me {
 		clear: both;
 		width: 578px;
@@ -305,6 +321,10 @@ span {
 
 	.portfolio-image {
 		width: 48%;
+	}
+
+	.portfolio-image-left {
+		margin: 0 4% 0 0;
 	}
 	
 	.social-sidebar {
@@ -346,13 +366,27 @@ span {
 
 	}
 
+	.contact-me {
+		width: initial;
+		float: initial;
+	}
+
 	.about-me {
 		clear: both;
 		width: initial;
 	}
 
+	.portfolio {
+		width: initial;
+	}
+
 	.headshot {
 		width: 100%;
+	}
+
+	.portfolio-image {
+		width: 100%;
+		margin: 0 0 50px 0;
 	}
 	
 	.social-sidebar {
