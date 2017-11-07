@@ -286,21 +286,31 @@ span {
 }
 
 @media screen and (max-width: 640px) {
+	p {
+		font-size: 1em;
+	}
+	.top-nav-container {
+		height: 160px;
+	}
+
 	.top-nav {
-		width: 480px;
+		float: initial;
+		width: 100%;
 	}
 
 	.name-box {
-		clear: both;
-
+		float: initial;
+		text-align: center;
 	}
 
 	.nav-links {
-		clear: both;
+		float: initial;
+		line-height: 70px;
+		text-align: center;
 	}
 
 	.main-content {
-		width: 480px;
+		width: 80%;
 		margin: 0 auto;
 		padding: 40px 0 0 0;
 
@@ -308,16 +318,17 @@ span {
 
 	.about-me {
 		clear: both;
-		width: 578px;
+		width: initial;
 	}
 
 	.headshot {
-		width: 150px;
+		width: 100%;
 	}
 	
 	.social-sidebar {
 		clear: both;
-		width: 578px;
+		float: initial;
+		width: initial;
 		margin-bottom: 50px;
 	}
 
