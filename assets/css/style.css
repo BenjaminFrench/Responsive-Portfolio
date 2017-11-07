@@ -248,6 +248,28 @@ span {
 	.about-me {
 		width: 350px;
 	}
+
+	.portfolio {
+		width: 350px;
+	}
+
+	.portfolio-image {
+		width: 100%;
+		margin: 0 0 50px 0;
+	}
+
+	.portfolio-image-left {
+		margin: 0 0 50px 0;
+	}
+
+	.portfolio-row {
+		margin: 0 0 0 0;
+	}
+
+	img {
+		width: 100%;
+	}
+
 	.social-sidebar {
 	}
 	.headshot {
@@ -273,8 +295,16 @@ span {
 		width: 578px;
 	}
 
+	.portfolio {
+		width: 578px;
+	}
+
 	.headshot {
 		width: 150px;
+	}
+
+	.portfolio-image {
+		width: 48%;
 	}
 	
 	.social-sidebar {
